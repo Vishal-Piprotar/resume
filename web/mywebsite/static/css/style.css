@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background:#86888a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    margin: 20px;
+    position: relative;
+    width: 50%;
+    height: auto;
+    display: flex;
+    justify-content:space-between;
+    box-shadow: rgba(0, 0, 0, 0.30) 0px 5px 10px;
+}
+.left{
+    background-color: #1b4868;
+    width: 30%;
+  
+}
+.links{
+    text-decoration: none;
+    list-style: none;
+    
+}
+ a{
+    text-decoration: none;
+    color: white;
+    font-size: 12px;
+ }
+ a:hover{
+    color: yellow;
+    text-decoration: underline;
+}
+.contact,.top,.language{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 20;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: whitesmoke;
+    padding: 5px;
+    border-bottom: 2px solid white;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+
+.right{
+    padding: 20px;
+    width: 70%;
+    background-color: whitesmoke;
+}
+.left img{
+    
+    margin:20px 20px 60px 20px;
+    width: 200px;
+    height: auto;
+    border-radius: 50%;
+   
+}
+h1{
+    margin: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border-bottom: 1px solid #1b4868;
+}
+.main h3{
+    margin-left: 20px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #000;
+}
+.gray{
+    color: grey;
+}
+.summary,.Education,.Experience,.skills{
+    margin: 20px;
+
+
+}
+h2{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border-bottom: 1px solid #1b4868;
+    margin-bottom: 20px;
+}
+p{
+letter-spacing:1px;
+margin-bottom: 30px;
+}
+.details{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.list{
+    margin: 20px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
